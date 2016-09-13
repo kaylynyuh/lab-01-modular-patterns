@@ -3,6 +3,8 @@
 const program = require('../program.js');
 const assert = require('assert');
 
+console.log('program', program);
+
 describe('testing greet module', function() {
   describe('#greet()', function() {
     it('should say hello world', function() {
