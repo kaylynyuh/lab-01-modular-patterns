@@ -1,5 +1,5 @@
 'use strict';
 
-const greet = require('./index.js');
-
-greet('kale');
+module.exports = function greet(name) {
+  console.log('hello ' + name );
+};
