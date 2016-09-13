@@ -34,3 +34,9 @@ For a second bonus point, write a test that makes sure that the arguments are be
   * Proper Submission: 2pts
   * mocha/assert Test: 3pts
   * Use of Modular Pattern/design of greet object/function: 3pts
+
+Used this site for reference on how to use assert.equal on line 9 of greet-test.js
+https://www.sitepoint.com/unit-test-javascript-mocha-chai/
+
+Used Node docs for reference on assert.throw
+https://nodejs.org/dist/latest-v4.x/docs/api/assert.html#assert_assert_throws_block_error_message
