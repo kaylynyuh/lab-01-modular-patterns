@@ -3,8 +3,6 @@
 const greet = require('../greet.js');
 const assert = require('assert');
 
-console.log('greet', greet);
-
 describe('testing greet module', function() {
   it('should say hello world', function() {
     assert.equal(greet('world'), 'hello world');
