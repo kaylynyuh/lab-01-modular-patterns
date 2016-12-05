@@ -2,4 +2,6 @@
 
 const greet = require('./lib/greet');
 
-greet.sayHello('world');
+greet.sayHello('dude');
+greet.sayGoodbye('dude');
+greet.dynamicGreet();
