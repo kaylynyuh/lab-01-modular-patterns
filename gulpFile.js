@@ -13,10 +13,6 @@ gulp.task('test', function() {
   .pipe(mocha({reporter: 'nyan'}));
 });
 
-gulp.task('hello', function(){
-  console.log('hello world');
-});
-
 gulp.task('lint', function(){
   return gulp.src(['**/*.js','!node_modules/**'])
   .pipe(eslint())
